@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: guitartortona-vue-config
-data:
-  nginx.conf: |
-    # Empty for now, nginx config is in Docker image
