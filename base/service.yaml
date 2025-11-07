@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: guitartortona-web
+  name: guitartortona-vue
   labels:
-    app.kubernetes.io/name: guitartortona-web
+    app.kubernetes.io/name: guitartortona-vue
 spec:
   type: ClusterIP
   selector:
-    app.kubernetes.io/name: guitartortona-web
+    app.kubernetes.io/name: guitartortona-vue
   ports:
     - name: http
       port: 80

@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: guitartortona-web
+  name: guitartortona-vue
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
@@ -14,16 +14,16 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - web.guitar.lab
+        - vue.guitar.lab
       secretName: guitar-wildcard-tls
   rules:
-    - host: web.guitar.lab
+    - host: vue.guitar.lab
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: guitartortona-web
+                name: guitartortona-vue
                 port:
                   number: 80

@@ -1,9 +1,9 @@
 apiVersion: policy/v1
 kind: PodDisruptionBudget
 metadata:
-  name: guitartortona-web
+  name: guitartortona-vue
 spec:
   minAvailable: 1
   selector:
     matchLabels:
-      app.kubernetes.io/name: guitartortona-web
+      app.kubernetes.io/name: guitartortona-vue

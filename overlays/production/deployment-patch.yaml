@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guitartortona-web
+  name: guitartortona-vue
   labels:
     environment: production
     app.kubernetes.io/version: v1.0.0
@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/version: v1.0.0
     spec:
       containers:
-        - name: guitartortona-web
+        - name: guitartortona-vue
           resources:
             requests:
               memory: "128Mi"

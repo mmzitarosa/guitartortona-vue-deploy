@@ -15,5 +15,5 @@ patches:
   - path: deployment-patch.yaml
 
 images:
-  - name: ghcr.io/mmzitarosa/guitartortona-web
+  - name: ghcr.io/mmzitarosa/guitartortona-vue
     newTag: v1.0.0
