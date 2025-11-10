@@ -16,4 +16,4 @@ patches:
 
 images:
   - name: ghcr.io/mmzitarosa/guitartortona-vue
-    newTag: latest
+    newTag: v1.0.0
