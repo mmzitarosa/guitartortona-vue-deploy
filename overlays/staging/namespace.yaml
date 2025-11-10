@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: staging
+  name: vue-staging
   labels:
-    environment: staging
+    environment: vue-staging
     monitoring: enabled

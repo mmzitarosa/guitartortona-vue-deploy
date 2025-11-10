@@ -3,14 +3,14 @@ kind: Deployment
 metadata:
   name: guitartortona-vue
   labels:
-    environment: staging
+    environment: vue-staging
     app.kubernetes.io/version: v1.0.0-rc1
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        environment: staging
+        environment: vue-staging
         app.kubernetes.io/version: v1.0.0-rc1
     spec:
       containers:

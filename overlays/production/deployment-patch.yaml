@@ -3,13 +3,13 @@ kind: Deployment
 metadata:
   name: guitartortona-vue
   labels:
-    environment: production
+    environment: vue
     app.kubernetes.io/version: v1.0.0
 spec:
   template:
     metadata:
       labels:
-        environment: production
+        environment: vue
         app.kubernetes.io/version: v1.0.0
     spec:
       containers:

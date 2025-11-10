@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: production
+  name: vue
   labels:
-    environment: production
+    environment: vue
     monitoring: enabled
